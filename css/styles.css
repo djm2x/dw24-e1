@@ -4,7 +4,6 @@
 
 .card {
     margin: 1rem;
-    width: 15.8rem;
 }
 
 .my-icon-search {
@@ -15,10 +14,6 @@
 .search-inline {
     flex-wrap: nowrap;
 }
-
-/* .navbar {
-    padding: 0rem 1rem;
-} */
 
 .container {
     margin-top: 95px;
@@ -39,8 +34,7 @@ section {
     }
 } 
 
-
-/* mode disktop et web */
+/* mode disktop */
 @media (min-width: 601px) { 
 
     /* on monter tout les section */
@@ -55,6 +49,20 @@ section {
     /* on fait disparaitre le nav */
     .my-nav {
         display: none;
+    }
+
+    .card {
+        width: 25rem;
+    }
+
+} 
+
+
+/* mode web */
+@media (min-width: 768px) { 
+
+    .card {
+        width: 15.8rem;
     }
 
 } 
