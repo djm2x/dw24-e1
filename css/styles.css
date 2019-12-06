@@ -1,5 +1,27 @@
+.bg-dark {
+    background-color: #0B335A!important;
+}
+
 .card {
     margin: 1rem;
+    width: 15.8rem;
+}
+
+.my-icon-search {
+    width: 20px;
+    fill: white;
+}
+
+.search-inline {
+    flex-wrap: nowrap;
+}
+
+.navbar {
+    padding: 0rem 1rem;
+}
+
+.container {
+    margin-top: 95px;
 }
 
 section {
