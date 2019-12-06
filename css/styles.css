@@ -33,6 +33,10 @@ section {
     .my-title {
         display: none !important;
     }
+
+    .card {
+        width: 100%;
+    }
 } 
 
 
